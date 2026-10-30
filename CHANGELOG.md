@@ -7,9 +7,37 @@ The project has been live at [alacraft.day](https://alacraft.day) since November
 
 ## 2026
 
+### October
+
+- **Seed world maps** — every page in the `/seeds` catalog now shows a biome map around spawn with a numbered pin for each coordinate in its table. Clicking a pin or a row opens the Seed Map on that exact spot in a new tab, and typing a catalog seed on the Seed Map links back to its guide. Two new seeds joined the catalog, coordinates are checked in a generated Java 26.3 world, and biome names in every language now match the official in-game names
+- **Farms** — a new `/farms` section with six interactive 3D build guides: mob XP, iron, creeper (gunpowder), sugar cane, bamboo and kelp. Each guide builds the farm step by step with real game textures, sizes, a block grid and see-through walls, counts the materials from the model, and runs the finished farm as an animation. Every layout was built and run on a vanilla Java 26.3 server before publishing. The mob XP farm moved from `/xp-farm` to `/farms/xp-farm`
+- **Enchantment Cracker for older versions** — the calculator now supports every Java Edition release from 1.8 to 26.3, following each version's own enchanting rules
+- **Enchantment Cracker** — `/enchantment-cracker` takes a few readings from your enchanting table, works out what every item will get, and gives exact steps to roll the enchantment you want, right in the browser
+- **Accessibility** — pages now work properly with screen readers and the keyboard: landmarks, a skip link, a single heading per page, labelled controls, and keyboard-friendly dialogs, menus and copy buttons
+
+### September
+
+- **Minecraft 26.3 on the Crafts page** — 98 recipes for everything 26.3 added: poplar wood in every shape, the Straw Bed, Shelf Mushroom and Red Shrub, wool and concrete slabs and stairs in all 16 colors, poplar boats and cushions, with official names in all 8 languages and real game textures as icons
+- **Ala Industrial on 26.2 and 26.3** — the mod card and page show support for both game versions, nine icons match the mod's current look, and the Wiki button opens the mod wiki in your language
+- **3D Skin Viewer** — `/3d-skin-viewer` shows any Minecraft player in 3D by nickname, with capes, walking, emotes, a 3D second layer, and models from Ears and Customizable Player Models
+- **Our Mods** — the mods page lists six mods: Ala Logger joins with its own card, and AlaLoot, AlaHorde and AlaAggro now run on both Fabric and NeoForge
+- **Fixes** — the skin viewer loads on every network again, color names and Copy buttons on `/color-code` are translated into every language, and the Log Checker handles large modpack crash reports, archives and single-player logs correctly
+- **Loading skeletons** — tool pages open with their full layout already in place while content loads, instead of a blank screen under a spinner
+
+### August
+
+- **Screenshots** — `/screenshots` turns a Minecraft screenshot into a short link that opens as the picture itself in Discord; the companion mod Ala Screen does the same from inside the game with F2
+- **Chinese** — AlaCraft is now available in Simplified Chinese (`/zh/`), the 8th language
+- **Log Checker** — `/logs` takes a crash log or `latest.log`, tells you in plain words what broke, and turns it into a short link to share. A public HTTP API with runnable examples lives at `/api`
+- **Fireworks with a live preview** — the firework generator plays the burst right next to the settings as you change colors, shape and effects
+- **/tellraw rebuilt** — six one-click templates, settings next to the part they change, a large in-game preview, and a warning when a command is too long for chat
+- **Pages you can listen to** — many pages open with a short spoken summary in your own language
+- **Ala Industrial in the catalog** — every block and item of the mod has a guide page, and its machine recipes show which station they are made at
+
 ### July
 
-- **Craft Map** — a new interactive tool at `/craft-map` displays all Minecraft crafting recipes as one connected, draggable board. Every recipe is a card with its crafting grid and result; arrows show which crafted items feed into other recipes. Focus mode traces any item back to its raw resources through the full crafting chain. Card positions are saved in the browser, the board is filterable by mod, and pinch-zoom works on phones
+- **Ala Industrial** — a fourth mod joins `/mods`: an EU/FE tech mod for Minecraft 26.2 that runs on both Fabric and NeoForge. Build a power grid from wind, solar and water generators, wire it with cables and a Battery Box, then run ore through macerators, extractors and an electric furnace to mine four new metals — tin, silver, nickel and uranium. Every mod now has its own detail page (for example `/mods/alaindustrial`) listing what it adds — generators, machines, cables, ores, tools — with block icons, recipe counts, and CurseForge, Modrinth, Discord and GitHub links
+- **Block IDs reference** — `/block-ids` is a searchable list of every vanilla Minecraft block and item ID: modern namespaced ids (`minecraft:stone`) with icons, categories and ready-to-copy `/give` commands, plus a legacy mode with the pre-1.13 numeric ids (0–255) in decimal and hexadecimal. Available in all 7 languages
 
 ### June
 

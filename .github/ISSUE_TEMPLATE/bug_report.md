@@ -31,7 +31,10 @@ assignees: Ma3auka
 **Crafting & Recipes**
 - [ ] Crafting Recipes
 - [ ] Custom Crafts Creator
-- [ ] Craft Map
+- [ ] Enchantment Cracker
+
+**Farms**
+- [ ] Farms section / a 3D farm guide
 
 **Survival & Navigation**
 - [ ] Stronghold Finder
@@ -40,11 +43,11 @@ assignees: Ma3auka
 - [ ] Stack Calculator
 
 **World & Seeds**
-- [ ] Seeds Catalog
+- [ ] Seeds Catalog / seed world map
 - [ ] Seed Map
 - [ ] Flat World Generator
 
-**Builders & Editors**
+**Builders & Generators**
 - [ ] Banner Generator
 - [ ] Fireworks Builder
 - [ ] MOTD Generator
@@ -54,11 +57,22 @@ assignees: Ma3auka
 - [ ] 3D Block Creator
 - [ ] Potion Generator
 
+**Skins & Screenshots**
+- [ ] 3D Skin Viewer
+- [ ] Skin Viewer
+- [ ] Screenshots
+
+**For Players and Server Owners**
+- [ ] Log Checker
+- [ ] Developer API
+- [ ] Color Codes
+- [ ] Block IDs
+
 **Reference**
 - [ ] Block Catalog / Block Guide page
 - [ ] Paintings Catalog
-- [ ] Skin Viewer
-- [ ] Color Codes
+- [ ] Sulfur Cube Guide
+- [ ] Our Mods
 - [ ] News & Guides
 
 **Community & Platform**
@@ -81,7 +95,7 @@ assignees: Ma3auka
 
 **Device / OS:** <!-- e.g. Windows 11, macOS 14, iOS 17, Android 14 -->
 
-**Language on site:** <!-- e.g. English /en/, Russian /ru/ -->
+**Language on site:** <!-- e.g. English /en/, Russian /ru/, Chinese /zh/ -->
 
 ---
 

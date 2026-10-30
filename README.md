@@ -4,20 +4,23 @@
 
 <h1>AlaCraft</h1>
 
-<p><strong>Free multilingual Minecraft tools — calculators, generators, and a 2,000+ block reference, all in the browser. No account required.</strong></p>
+<p><strong>Free multilingual Minecraft tools — calculators, generators, 3D build guides and a 2,000+ block reference, all in the browser. No account required.</strong></p>
 
 [![Website](https://img.shields.io/badge/🌐_Website-alacraft.day-brightgreen?style=for-the-badge)](https://alacraft.day)
-[![Discord](https://img.shields.io/badge/Discord-Join_Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/QbSEPbGA8u)
+[![Discord](https://img.shields.io/badge/Discord-Join_Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ky7cFDF8JD)
 [![Twitter](https://img.shields.io/badge/Twitter-@alacraftday-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/alacraftday)
 
 ![Uptime](https://img.shields.io/website?url=https%3A%2F%2Falacraft.day&style=flat-square&label=alacraft.day&up_message=online&down_message=offline)
+![Languages](https://img.shields.io/badge/languages-8-blue?style=flat-square)
+![Minecraft](https://img.shields.io/badge/Minecraft-Java_26.3-62B47A?style=flat-square)
 
 <br>
 
 ![PHP](https://img.shields.io/badge/PHP_8.3-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel_10-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Vue](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL_8-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
 <br>
@@ -30,17 +33,31 @@
 
 ## Contents
 
-[What is AlaCraft?](#what-is-alacraft) · [Tools](#tools) · [By the Numbers](#by-the-numbers) · [Tech Stack](#tech-stack) · [Localization](#localization) · [Community](#community) · [History](#history) · [Changelog](CHANGELOG.md) · [Roadmap](ROADMAP.md)
+[What is AlaCraft?](#what-is-alacraft) · [What's new](#whats-new) · [Tools](#tools) · [Our Mods](#our-mods) · [By the Numbers](#by-the-numbers) · [Tech Stack](#tech-stack) · [Localization](#localization) · [Accessibility](#accessibility) · [Community](#community) · [History](#history) · [Changelog](CHANGELOG.md) · [Roadmap](ROADMAP.md)
 
 ---
 
 ## What is AlaCraft?
 
-AlaCraft is a **free, multilingual Minecraft tools platform** running since November 2023. It brings together 20+ interactive tools — crafting recipe search, generators, calculators, and a reference catalog — all running in the browser with no account required.
+AlaCraft is a **free, multilingual helper site for Minecraft players**, running since November 2023. It brings together 25+ interactive tools — crafting recipe search, an enchanting table calculator, 3D farm build guides, a seed map, a crash log checker, generators and reference catalogs — all running in the browser with no account required.
 
-The platform covers Java and Bedrock Edition across 7 languages, with 1,400+ searchable crafting recipes, 1,332+ published block guide pages, and an embedded community space for players to share their builds.
+The site covers Java and Bedrock Edition in 8 languages, with 2,400+ searchable recipes, 2,000+ published block guide pages, and a community space where players share their builds.
 
 > **Live site:** [alacraft.day](https://alacraft.day) · Free to use · No download
+
+---
+
+## What's new
+
+The latest additions (August – October 2026). Full list in the [Changelog](CHANGELOG.md).
+
+- 🌾 **[Farms](https://alacraft.day/en/farms)** — six 3D build guides (mob XP, iron, creeper, sugar cane, bamboo, kelp), each layout built and run on a vanilla Java 26.3 server first
+- ✨ **[Enchantment Cracker](https://alacraft.day/en/enchantment-cracker)** — take a few readings from your enchanting table and get exact steps to roll the enchantment you want, Java 1.8 – 26.3
+- 🗺️ **[Seed world maps](https://alacraft.day/en/seeds)** — every seed page shows a biome map with numbered pins that open the Seed Map on that spot
+- 🧾 **[Log Checker](https://alacraft.day/en/logs)** — paste a crash log and get a plain-words answer and a short link, with a public [API](https://alacraft.day/en/api)
+- 🧍 **[3D Skin Viewer](https://alacraft.day/en/3d-skin-viewer)** — any player in 3D with capes, emotes, Ears and Customizable Player Models
+- 📸 **[Screenshots](https://alacraft.day/en/screenshots)** — turn a screenshot into a short link, or share it straight from the game with Ala Screen
+- 🧱 **Minecraft 26.3** — 98 new recipes on the [Crafts](https://alacraft.day/en/crafts) page with official names in all 8 languages
 
 ---
 
@@ -50,9 +67,17 @@ The platform covers Java and Bedrock Edition across 7 languages, with 1,400+ sea
 
 | Tool | Description |
 |------|-------------|
-| [Crafting Recipes](https://alacraft.day/en/crafts) | 1,400+ searchable crafting recipes with mod and version filters |
+| [Crafting Recipes](https://alacraft.day/en/crafts) | 2,400+ searchable recipes — crafting table, furnace, machines and in-world interactions — with mod and version filters |
 | [Custom Crafts Creator](https://alacraft.day/en/custom-crafts) | Build 2×2 and 3×3 recipes from the block catalog; export as datapack JSON |
-| [Craft Map](https://alacraft.day/en/craft-map) | All crafting chains on one draggable board — arrows show which items feed into which recipes; Focus mode traces any item back to raw resources |
+| [Enchantment Cracker](https://alacraft.day/en/enchantment-cracker) | Work out what the enchanting table will offer and the exact steps to roll the enchantment you want — Java 1.8 – 26.3 |
+
+### 🌾 Farms
+
+| Tool | Description |
+|------|-------------|
+| [Farms](https://alacraft.day/en/farms) | Interactive 3D build guides with real textures, sizes, see-through walls and a material list counted from the model |
+| [Mob XP Farm](https://alacraft.day/en/farms/xp-farm) · [Iron Farm](https://alacraft.day/en/farms/iron-farm) · [Creeper Farm](https://alacraft.day/en/farms/creeper-farm) | Mob farms, each layout tested on a vanilla Java 26.3 server |
+| [Sugar Cane](https://alacraft.day/en/farms/sugar-cane-farm) · [Bamboo](https://alacraft.day/en/farms/bamboo-farm) · [Kelp](https://alacraft.day/en/farms/kelp-farm) | Automatic plant farms on observers and pistons, with the rates the game produced |
 
 ### 🏕️ Survival & Navigation
 
@@ -67,33 +92,47 @@ The platform covers Java and Bedrock Edition across 7 languages, with 1,400+ sea
 
 | Tool | Description |
 |------|-------------|
-| [Seeds Catalog](https://alacraft.day/en/seeds) | Hand-picked Minecraft worlds with maps, coordinates, categories, and Java/Bedrock notes |
+| [Seeds Catalog](https://alacraft.day/en/seeds) | Hand-picked Minecraft worlds checked in the game, with world maps, coordinates and Java/Bedrock notes |
 | [Seed Map](https://alacraft.day/en/seed-map) | Interactive biome map for any Java seed — structures, slime chunks, biome highlights, and shareable links |
 | [Flat World Generator](https://alacraft.day/en/flat-world) | Superflat preset builder with layers, biome selection, and shareable URLs |
 
-### 🎨 Builders & Editors
+### 🎨 Builders & Generators
 
 | Tool | Description |
 |------|-------------|
-| [Banner Generator](https://alacraft.day/en/banner) | Design any Minecraft banner pattern and get the /give command and Loom recipe |
-| [Fireworks Builder](https://alacraft.day/en/fireworks) | Custom firework rockets with colors, explosion shapes, effects, and /give command |
-| [MOTD Generator](https://alacraft.day/en/motd) | Server message-of-the-day editor with color codes, live preview, and copy-ready output |
-| [/tellraw Editor](https://alacraft.day/en/tellraw) | Visual chat message builder — click events, hover text, and JSON output for Java/Bedrock |
-| [Armor Color Generator](https://alacraft.day/en/armor) | Dye leather armor, preview it on a 3D skin model, and get exact RGB values |
-| [Achievement Generator](https://alacraft.day/en/achievement) | Create Minecraft advancement-style PNG images with Task, Goal, and Challenge frames |
-| [3D Block Creator](https://alacraft.day/en/create-3d-block) | Upload textures for all 6 cube faces, rotate the preview, and export transparent PNG at up to 2048×2048 |
-| [Potion Generator](https://alacraft.day/en/potion-generator) | Build custom potions and get the /give command with the right NBT tags |
+| [Banner Generator](https://alacraft.day/en/banner) | Design any banner pattern and get the /give command and Loom recipe |
+| [Fireworks Builder](https://alacraft.day/en/fireworks) | Colors, shapes and effects with a live preview of the burst and the /give command |
+| [/tellraw Editor](https://alacraft.day/en/tellraw) | Chat message builder with one-click templates, an in-game preview and a length check |
+| [MOTD Generator](https://alacraft.day/en/motd) | Server message-of-the-day editor with color codes and live preview |
+| [Armor Color Generator](https://alacraft.day/en/armor) | Dye leather armor, preview it on a 3D model, and get exact RGB values |
+| [Achievement Generator](https://alacraft.day/en/achievement) | Advancement-style PNG images with Task, Goal, and Challenge frames |
+| [Potion Generator](https://alacraft.day/en/potion-generator) | Custom potions with the /give command |
+| [3D Block Creator](https://alacraft.day/en/create-3d-block) | Textures for all 6 faces, 3D preview, transparent PNG up to 2048×2048 |
+
+### 🧍 Skins & Screenshots
+
+| Tool | Description |
+|------|-------------|
+| [3D Skin Viewer](https://alacraft.day/en/3d-skin-viewer) | Any player in 3D by nickname — capes, walking, emotes, Ears and Customizable Player Models |
+| [Skin Viewer](https://alacraft.day/en/skin) | Look up a player's skin and download the PNG |
+| [Screenshots](https://alacraft.day/en/screenshots) | Turn a screenshot into a short link that opens as the picture in Discord |
+
+### 🛠️ For Players and Server Owners
+
+| Tool | Description |
+|------|-------------|
+| [Log Checker](https://alacraft.day/en/logs) | Paste a crash log or `latest.log` and get what broke in plain words, plus a short shareable link |
+| [Developer API](https://alacraft.day/en/api) | Public HTTP API for the Log Checker with runnable examples |
+| [Color Codes](https://alacraft.day/en/color-code) | Formatting and color code reference for chat, signs and commands, in your language |
+| [Block IDs](https://alacraft.day/en/block-ids) | Every block and item ID — modern and legacy numeric — with `/give` commands |
 
 ### 📚 Reference
 
 | Tool | Description |
 |------|-------------|
-| [Block Catalog & Guides](https://alacraft.day/en/blocks/dirt) | 1,332+ published block pages — description, crafting recipe, usage guide, and FAQ in all 7 languages |
-| [Paintings Catalog](https://alacraft.day/en/paintings) | All 50 Minecraft paintings with sizes, artists, real-world inspiration, and /give + /summon commands |
-| [Skin Viewer](https://alacraft.day/en/skin) | Look up any player's skin in 3D by username; download PNG |
-| [Color Codes](https://alacraft.day/en/color-code) | Complete Minecraft formatting and color code reference for chat, signs, and commands |
-| [Sulfur Cube Guide](https://alacraft.day/en/sulfur-cube) | All 12 Sulfur Cube archetypes from Minecraft 26.2 Chaos Cubed — triggers, behavior, and tips |
-| [Our Mods](https://alacraft.day/en/mods) | Free, open-source NeoForge server mods: AlaLoot, AlaHorde, AlaAggro — install guide and CurseForge links |
+| [Block Catalog & Guides](https://alacraft.day/en/blocks/dirt) | 2,000+ block pages — description, recipe, usage guide and FAQ |
+| [Paintings Catalog](https://alacraft.day/en/paintings) | All 50 paintings with sizes, artists, real-world inspiration, and /give + /summon commands |
+| [Sulfur Cube Guide](https://alacraft.day/en/sulfur-cube) | All 12 Sulfur Cube archetypes — triggers, behavior, and tips |
 
 ### 👥 Community & Content
 
@@ -105,13 +144,26 @@ The platform covers Java and Bedrock Edition across 7 languages, with 1,400+ sea
 
 ---
 
+## Our Mods
+
+Free Minecraft mods for Fabric and NeoForge, listed on [alacraft.day/mods](https://alacraft.day/en/mods):
+
+| Mod | What it does |
+|-----|--------------|
+| [Ala Industrial](https://alacraft.day/en/mods/alaindustrial) | Tech mod: generators, cables, machines, new metals — Minecraft 26.2 and 26.3 |
+| Ala Logger | One `/alalogger` command uploads your log or crash report to the Log Checker |
+| Ala Screen | Press F2 and share a screenshot as a link right from the game |
+| AlaLoot · AlaHorde · AlaAggro | Gameplay mods: XP-scaled loot, growing hordes, hostile mobs |
+
+---
+
 ## By the Numbers
 
 <div align="center">
 
-| ⚒️ Recipes | 🧱 Blocks | 🛠️ Tools | 🌐 Languages |
-|:---------:|:--------:|:--------:|:----------:|
-| **1,400+** | **1,332+** | **20+** | **7** |
+| ⚒️ Recipes | 🧱 Block pages | 🛠️ Tools | 🌾 3D farm guides | 🌐 Languages |
+|:---------:|:-------------:|:--------:|:----------------:|:-----------:|
+| **2,400+** | **2,000+** | **25+** | **6** | **8** |
 
 </div>
 
@@ -120,9 +172,9 @@ The platform covers Java and Bedrock Edition across 7 languages, with 1,400+ sea
 ## Tech Stack
 
 ```
-Backend    PHP 8.3 · Laravel 10 · Statamic CMS (news)
-Frontend   Vue 3 · Vite 6 · Tailwind CSS v4
-Database   MySQL 8 · AWS S3 (media assets)
+Backend    PHP 8.3 · Laravel 10 · Statamic (news)
+Frontend   Vue 3 · Vite 6 · Sass · Three.js (3D) · WebAssembly (seed map)
+Data       MySQL · AWS S3 (media assets)
 Infra      Hetzner Cloud · Cloudflare CDN
 ```
 
@@ -130,42 +182,50 @@ Infra      Hetzner Cloud · Cloudflare CDN
 
 ## Localization
 
-All tools and content are available in **7 languages** with proper `hreflang` and canonical tags on every page:
+All tools are available in **8 languages** with `hreflang` and canonical tags on every page:
 
-| Language | URL prefix | Coverage |
-|----------|-----------|---------|
-| 🇬🇧 English | `/en/` | Full |
-| 🇷🇺 Russian | `/ru/` | Full |
-| 🇺🇦 Ukrainian | `/uk/` | Full |
-| 🇪🇸 Spanish | `/es/` | Full |
-| 🇫🇷 French | `/fr/` | Full |
-| 🇩🇪 German | `/de/` | Full |
-| 🇯🇵 Japanese | `/ja/` | Full (official Mojang translations) |
+| Language | URL prefix |
+|----------|-----------|
+| 🇬🇧 English | `/en/` |
+| 🇷🇺 Russian | `/ru/` |
+| 🇺🇦 Ukrainian | `/uk/` |
+| 🇪🇸 Spanish | `/es/` |
+| 🇫🇷 French | `/fr/` |
+| 🇩🇪 German | `/de/` |
+| 🇯🇵 Japanese | `/ja/` |
+| 🇨🇳 Chinese (Simplified) | `/zh/` |
 
-Block names, tool labels, and all user-facing text use official Mojang translations where available.
+Block, item and biome names follow the official in-game names of each language.
+
+---
+
+## Accessibility
+
+- Pages work with screen readers: landmarks, a skip link, one heading per page, labelled controls
+- Dialogs, menus and copy buttons can be used from the keyboard
+- Many pages open with a short spoken summary in your language
+- Tool pages show their layout while loading instead of a blank spinner
 
 ---
 
 ## Community
 
-AlaCraft has a community portal built into the platform — players can publish posts, react to builds, and share presets directly on the site.
+AlaCraft has a community portal built into the site — players publish posts, react to builds, and share presets.
 
-Join the conversation outside the platform:
-
-- 💬 **Discord** — [discord.gg/QbSEPbGA8u](https://discord.gg/QbSEPbGA8u) — main hub for discussion and announcements
-- 🐦 **Twitter / X** — [@alacraftday](https://x.com/alacraftday) — updates and Minecraft news
+- 💬 **Discord** — [discord.gg/ky7cFDF8JD](https://discord.gg/ky7cFDF8JD)
+- 🐦 **Twitter / X** — [@alacraftday](https://x.com/alacraftday)
 - 🌐 **Website** — [alacraft.day](https://alacraft.day)
 
 ---
 
 ## History
 
-AlaCraft launched in **November 2023** with a small set of color code and MOTD tools. Over three years it has grown into a full Minecraft utility platform:
+AlaCraft launched in **November 2023** with a small set of color code and MOTD tools. It has since grown into a full Minecraft helper site:
 
 - **2023** — Domain registered; core platform (Laravel + Vue 3); first crafting recipes database
-- **2024** — Armor calculator, Skin viewer, MOTD generator, Color codes; Russian and English locales
-- **2025** — Block reference catalog; News section; Ukrainian, Spanish, French, German locales added; Player profiles
-- **2026** — Community Portal; Japanese locale; 20+ tools; Craft Map; Paintings Catalog; Seed Map; block guide pages (1,332+)
+- **2024** — Armor calculator, Skin viewer, MOTD generator, Color codes; Russian and English
+- **2025** — Block reference catalog; News section; Ukrainian, Spanish, French and German; player profiles
+- **2026** — Community Portal; Japanese and Chinese; Seed Map; Paintings Catalog; Block IDs; Ala Industrial in the catalog; Log Checker and its API; 3D Skin Viewer; Enchantment Cracker; Farms with 3D build guides; seed world maps; Minecraft 26.3
 
 Development is active — new tools and content are added regularly.
 
@@ -177,6 +237,6 @@ Development is active — new tools and content are added regularly.
 
 © 2023–2026 AlaCraft · All rights reserved
 
-[alacraft.day](https://alacraft.day) · [Discord](https://discord.gg/QbSEPbGA8u) · [Twitter](https://x.com/alacraftday)
+[alacraft.day](https://alacraft.day) · [Discord](https://discord.gg/ky7cFDF8JD) · [Twitter](https://x.com/alacraftday)
 
 </div>

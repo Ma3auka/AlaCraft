@@ -4,9 +4,9 @@
 
 | Version | Status |
 |---------|--------|
-| v2.1.x  | ✅ Supported (current) |
-| v2.0.x  | ✅ Supported |
-| v1.x    | ❌ Not supported |
+| v2.2.x  | ✅ Supported (current) |
+| v2.1.x  | ✅ Supported |
+| v2.0.x and older | ❌ Not supported |
 
 AlaCraft is a continuously deployed web platform. "Supported" means security patches are actively applied to the live production site at [alacraft.day](https://alacraft.day).
 
@@ -16,7 +16,8 @@ AlaCraft is a continuously deployed web platform. "Supported" means security pat
 
 Contact us privately:
 
-- **Discord** — send a direct message to the maintainer via [discord.gg/QbSEPbGA8u](https://discord.gg/QbSEPbGA8u)
+- **Email** — support@alacraft.day
+- **Discord** — send a direct message to the maintainer via [discord.gg/ky7cFDF8JD](https://discord.gg/ky7cFDF8JD)
 - **Twitter / X** — DM [@alacraftday](https://x.com/alacraftday)
 
 Include in your report:
